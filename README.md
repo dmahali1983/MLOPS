@@ -10,38 +10,52 @@ The dataset includes:
 Annotations.csv: It has 3 columns (Image name, Class name, Image Category(train/ test))
 Images.zip: It has 3152 images (Including Train and Test Images)
 
-## Algorithm:
+## Algorithm
 
 ResNet18: Residual Network18 is a 72-layer architecture with 18 deep layers.
 The primary idea of ResNet is the use of jumping connections that are mostly referred to as shortcut connections or identity connections. These connections primarily function by hopping over one or multiple layers forming shortcuts between these layers. The aim of introducing these shortcut connections was to resolve the predominant issue of vanishing gradient faced by deep networks. These shortcut connections remove the vanishing gradient issue by again using the activations of the previous layer. These identity mappings initially do not do anything much except skip the connections, resulting in the use of previous layer activations. This process of skipping the connection compresses the network; hence, the network learns faster. This compression of the connections is followed by expansion of the layers so that the residual part of the network could also train and explore more feature space.
 
+<img src="images/NLP.png" alt="portfolio img">
 
 
+## Architecture
+
+<img src="images/NLP.png" alt="portfolio img">
 
 
-Below listed Tools /Environments used to create, Train, Test and Deploy the model.
+## Below listed Tools /Environments used to create, Train, Test and Deploy the model.
+
+# Model Training:
+  MLFLOW
+
+# Model Serve:
+
+ AWS Lambda:
  - Python 3.10
  - AWS Boto3
- - AWS Sagemaker Notebook Instance
- - AWS Sagemaker API Endpoint
-## Sections
+ - Docker
+ - ECR
+ - AWS IAM Policy
+ - AWS S3
+ - AWS Lambda
+ - AWS API Gateway Endpoint
 
-- Data Preparation  [preprocessing.ipynb]
-  - Set S3 Bucket and Prefix
-  - Get Execution Role
-  - Download Data from https://archive.ics.uci.edu/ml/datasets/bank+marketing
-  - ETL using Pandas
-  - Create the Modeling dataset and upload to S3
+  Flask API
+  - Python 3.10
+  - Flask
+  - Docker
 
-- SageMaker Model Training [training.ipynb]
-  - Get the SageMaker xgboost Container
-  - Set Input Train/Test S3 Path
-  - Train the xgboost model using SageMaker Estimator
-  
-- Model Evaluation and Deployment in SageMaker [Predict.ipynb]
-  - Create a prediction API
+  AWS Sagemaker
+ - Python 3.10
+ - AWS Boto3
+ - AWS IAM Policy
+ - AWS S3
+ - Docker
+ - ECR
+ - AWS Sagemaker
 
-- Cleaning Up the Environment
+
+-
 ## Authors
 
 - [@dmahali1983](https://github.com/dmahali1983)
