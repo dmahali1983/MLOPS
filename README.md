@@ -23,8 +23,17 @@ The primary idea of ResNet is the use of jumping connections that are mostly ref
 <img src="images/NLP.png" alt="portfolio img">
 
 
-## Below listed Tools /Environments used to create, Train, Test and Deploy the model.
+## Evaluation Metrics
+  Accuracy:
+ 
+ 
+  Specificity(SPEC):
 
+ 
+  Recall(REC):
+
+
+ 
 # Model Training:
   MLFLOW
 
