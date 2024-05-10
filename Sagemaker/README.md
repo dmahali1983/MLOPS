@@ -20,8 +20,7 @@ The primary idea of ResNet is the use of jumping connections that are mostly ref
 
 ## Architecture
 
-![image](https://github.com/dmahali1983/MLOPS/assets/46201233/9f481fb4-2557-42ed-8dc4-c7dd190db6a8)
- 
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/921320e6-48ee-4c27-b68c-84f31b5eab75)
 
 # Model Serve:
 
