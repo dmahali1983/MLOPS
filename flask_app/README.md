@@ -16,11 +16,9 @@ The primary idea of ResNet is the use of jumping connections that are mostly ref
 ![image](https://github.com/dmahali1983/MLOPS/assets/46201233/e1da235a-dee9-4c09-ac15-06003ca5bcbb)
 
 
-
 ## Model Serve: Architecture 
 
-![image](https://github.com/dmahali1983/MLOPS/assets/46201233/58e17180-0638-4426-8fb8-2e5b892ccf73)
-
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/24f1ac61-dfc6-4204-bca4-b31328a6d9f2)
 
 # Components
 
@@ -28,7 +26,6 @@ The primary idea of ResNet is the use of jumping connections that are mostly ref
   - Python 3.10
   - Flask
   - Docker
-
 
 -
 ## Authors
