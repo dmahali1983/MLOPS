@@ -1,7 +1,5 @@
 # MLOPS
-MLOPS Projects - This is an comprehensive project.
-
-#  MHIST - Binary Image Classification - Using MLFLOW, FLASK API, AWS LAMBDA, SAGE MAKER
+#  MHIST - Binary Image Classification - Using FLASK API
 The objective of the project is to classify the images based on the predominant histological pattern of each image. There are 2 classes to identify the image as benign (HP) and non-benign (SSA).
 
 ## Data
@@ -15,53 +13,21 @@ Images.zip: It has 3152 images (Including Train and Test Images)
 ResNet18: Residual Network18 is a 72-layer architecture with 18 deep layers.
 The primary idea of ResNet is the use of jumping connections that are mostly referred to as shortcut connections or identity connections. These connections primarily function by hopping over one or multiple layers forming shortcuts between these layers. The aim of introducing these shortcut connections was to resolve the predominant issue of vanishing gradient faced by deep networks. These shortcut connections remove the vanishing gradient issue by again using the activations of the previous layer. These identity mappings initially do not do anything much except skip the connections, resulting in the use of previous layer activations. This process of skipping the connection compresses the network; hence, the network learns faster. This compression of the connections is followed by expansion of the layers so that the residual part of the network could also train and explore more feature space.
 
-<img src="images/NLP.png" alt="portfolio img">
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/e1da235a-dee9-4c09-ac15-06003ca5bcbb)
 
 
-## Architecture
 
-<img src="images/NLP.png" alt="portfolio img">
+## Model Serve: Architecture 
 
-
-## Evaluation Metrics
-  Accuracy:
- 
- 
-  Specificity(SPEC):
-
- 
-  Recall(REC):
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/58e17180-0638-4426-8fb8-2e5b892ccf73)
 
 
- 
-# Model Training:
-  MLFLOW
-
-# Model Serve:
-
- AWS Lambda:
- - Python 3.10
- - AWS Boto3
- - Docker
- - ECR
- - AWS IAM Policy
- - AWS S3
- - AWS Lambda
- - AWS API Gateway Endpoint
+# Components
 
   Flask API
   - Python 3.10
   - Flask
   - Docker
-
-  AWS Sagemaker
- - Python 3.10
- - AWS Boto3
- - AWS IAM Policy
- - AWS S3
- - Docker
- - ECR
- - AWS Sagemaker
 
 
 -
