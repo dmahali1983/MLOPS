@@ -1,0 +1,10 @@
+name: MHIST_BClass
+
+conda_env: conda.yaml
+
+entry_points:
+ main:
+  parameters:
+    epoch: int
+    lr: float
+  command: "python3 train.py {epoch} {lr}"
