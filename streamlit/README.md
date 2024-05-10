@@ -19,51 +19,12 @@ The primary idea of ResNet is the use of jumping connections that are mostly ref
 
 ## Architecture
 
-<img src="images/NLP.png" alt="portfolio img">
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/bc28c5e2-f970-4d58-befe-c10930dc2012)
 
+# Model Frontend:
+- Streamlit
+- Docker
 
-## Evaluation Metrics
-  Accuracy:
- 
- 
-  Specificity(SPEC):
-
- 
-  Recall(REC):
-
-
- 
-# Model Training:
-  MLFLOW
-
-# Model Serve:
-
- AWS Lambda:
- - Python 3.10
- - AWS Boto3
- - Docker
- - ECR
- - AWS IAM Policy
- - AWS S3
- - AWS Lambda
- - AWS API Gateway Endpoint
-
-  Flask API
-  - Python 3.10
-  - Flask
-  - Docker
-
-  AWS Sagemaker
- - Python 3.10
- - AWS Boto3
- - AWS IAM Policy
- - AWS S3
- - Docker
- - ECR
- - AWS Sagemaker
-
-
--
 ## Authors
 
 - [@dmahali1983](https://github.com/dmahali1983)
