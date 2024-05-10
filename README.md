@@ -15,22 +15,30 @@ Images.zip: It has 3152 images (Including Train and Test Images)
 ResNet18: Residual Network18 is a 72-layer architecture with 18 deep layers.
 The primary idea of ResNet is the use of jumping connections that are mostly referred to as shortcut connections or identity connections. These connections primarily function by hopping over one or multiple layers forming shortcuts between these layers. The aim of introducing these shortcut connections was to resolve the predominant issue of vanishing gradient faced by deep networks. These shortcut connections remove the vanishing gradient issue by again using the activations of the previous layer. These identity mappings initially do not do anything much except skip the connections, resulting in the use of previous layer activations. This process of skipping the connection compresses the network; hence, the network learns faster. This compression of the connections is followed by expansion of the layers so that the residual part of the network could also train and explore more feature space.
 
-<img src="images/NLP.png" alt="portfolio img">
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/889e63d1-29da-4c92-84ad-91dedafc1e38)
+
 
 
 ## Architecture
 
-<img src="images/NLP.png" alt="portfolio img">
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/604c9f79-1133-4d13-8e2c-b682dcfc5599)
+
 
 
 ## Evaluation Metrics
   Accuracy:
- 
+  
+ ![image](https://github.com/dmahali1983/MLOPS/assets/46201233/ae8d0383-2067-4cbc-89a7-d193f023f1ee)
+
  
   Specificity(SPEC):
+  
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/36836236-0762-4af6-abbf-7cf7fb630d32)
 
  
   Recall(REC):
+  
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/f21d5d3e-4049-483d-99d4-b90b693513ea)
 
 
  
