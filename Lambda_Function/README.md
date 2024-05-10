@@ -20,18 +20,7 @@ The primary idea of ResNet is the use of jumping connections that are mostly ref
 
 ## Architecture
 
-<img src="images/NLP.png" alt="portfolio img">
-
-
-## Evaluation Metrics
-  Accuracy:
- 
- 
-  Specificity(SPEC):
-
- 
-  Recall(REC):
-
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/d1b7c17a-e1bb-4814-9238-7c4507e50720)
 
  
 # Model Training:
