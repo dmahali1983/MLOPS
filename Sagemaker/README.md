@@ -1,7 +1,7 @@
 # MLOPS
 MLOPS Projects - This is an comprehensive project.
 
-#  MHIST - Binary Image Classification - Using MLFLOW, FLASK API, AWS LAMBDA, SAGE MAKER
+#  MHIST - Binary Image Classification - Using SAGEMAKER
 The objective of the project is to classify the images based on the predominant histological pattern of each image. There are 2 classes to identify the image as benign (HP) and non-benign (SSA).
 
 ## Data
