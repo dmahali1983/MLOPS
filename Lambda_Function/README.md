@@ -15,17 +15,14 @@ Images.zip: It has 3152 images (Including Train and Test Images)
 ResNet18: Residual Network18 is a 72-layer architecture with 18 deep layers.
 The primary idea of ResNet is the use of jumping connections that are mostly referred to as shortcut connections or identity connections. These connections primarily function by hopping over one or multiple layers forming shortcuts between these layers. The aim of introducing these shortcut connections was to resolve the predominant issue of vanishing gradient faced by deep networks. These shortcut connections remove the vanishing gradient issue by again using the activations of the previous layer. These identity mappings initially do not do anything much except skip the connections, resulting in the use of previous layer activations. This process of skipping the connection compresses the network; hence, the network learns faster. This compression of the connections is followed by expansion of the layers so that the residual part of the network could also train and explore more feature space.
 
-<img src="images/NLP.png" alt="portfolio img">
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/2ec49d2c-7e7f-4c19-88cb-7ca30476437b)
 
 
 ## Architecture
 
-![image](https://github.com/dmahali1983/MLOPS/assets/46201233/d1b7c17a-e1bb-4814-9238-7c4507e50720)
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/b09ffb27-f5b2-4de4-a648-681ca7a13d76)
 
  
-# Model Training:
-  MLFLOW
-
 # Model Serve:
 
  AWS Lambda:
@@ -37,23 +34,7 @@ The primary idea of ResNet is the use of jumping connections that are mostly ref
  - AWS S3
  - AWS Lambda
  - AWS API Gateway Endpoint
-
-  Flask API
-  - Python 3.10
-  - Flask
-  - Docker
-
-  AWS Sagemaker
- - Python 3.10
- - AWS Boto3
- - AWS IAM Policy
- - AWS S3
- - Docker
- - ECR
- - AWS Sagemaker
-
-
--
+  
 ## Authors
 
 - [@dmahali1983](https://github.com/dmahali1983)
