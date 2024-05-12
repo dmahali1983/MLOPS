@@ -3,8 +3,8 @@ import json
 
 def invoke_sagemaker():
 
-    AWS_ACCESS_KEY_ID ="AKIAYA6YKLF27N2AWXFN"
-    AWS_SECRET_ACCESS_KEY ="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"
+    AWS_ACCESS_KEY_ID =**************
+    AWS_SECRET_ACCESS_KEY =***********
     AWS_REGION = "us-east-1"
     # Initialize the SageMaker runtime client
     sagemaker_runtime = boto3.client('sagemaker-runtime', region_name=AWS_REGION)
