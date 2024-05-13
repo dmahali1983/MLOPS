@@ -20,8 +20,7 @@ The primary idea of ResNet is the use of jumping connections that are mostly ref
 
 ## Architecture
 
-<img src="images/NLP.png" alt="portfolio img">
-
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/ece39ac4-afad-42a6-9e9f-08aa12b8ef53)
 
 # Model Training:
   MLFLOW
