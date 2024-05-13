@@ -23,47 +23,23 @@ The primary idea of ResNet is the use of jumping connections that are mostly ref
 <img src="images/NLP.png" alt="portfolio img">
 
 
-## Evaluation Metrics
-  Accuracy:
- 
- 
-  Specificity(SPEC):
-
- 
-  Recall(REC):
-
-
- 
 # Model Training:
   MLFLOW
 
-# Model Serve:
-
- AWS Lambda:
- - Python 3.10
- - AWS Boto3
- - Docker
- - ECR
- - AWS IAM Policy
- - AWS S3
- - AWS Lambda
- - AWS API Gateway Endpoint
-
-  Flask API
-  - Python 3.10
-  - Flask
-  - Docker
-
-  AWS Sagemaker
- - Python 3.10
- - AWS Boto3
- - AWS IAM Policy
- - AWS S3
- - Docker
- - ECR
- - AWS Sagemaker
+## Evaluation Metrics
 
 
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/e687f878-106b-4b0a-a2ee-d4a26c68f623)
+
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/f188004a-0db6-47dd-b54c-61572e44d273)
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/ea620ad9-2892-4f80-b079-77a9f2f28708)
+
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/6bb6362c-0a74-4ff8-8975-4d8d40d2b02a)
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/3b17d248-2669-4b25-8e89-674afdb133f9)
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/5bc5b410-b706-4e48-a15a-526c31c65ae6)
+![image](https://github.com/dmahali1983/MLOPS/assets/46201233/a1de31f7-3d67-4167-930d-2a9f7b62039d)
+
+ 
 -
 ## Authors
 
